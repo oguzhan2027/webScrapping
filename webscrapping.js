@@ -5,7 +5,7 @@ const Excel = require("exceljs");
 //npm install puppeteer
 
 const scrape = async () => {
-    const url = "https://www.logo.com.tr/logo-is-ortaklari?page=1";
+    const url = "https://www.google.com";
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto(url);
